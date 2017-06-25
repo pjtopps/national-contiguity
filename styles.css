@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: black;
+  text-shadow: 1px 1px lightBlue,
+    -1px -1px lightBlue,
+    1px -1px lightBlue,
+    -1px 1px lightBlue;
+}
+
+#arena {
+  background-color: lightBlue;
+  width: 70%;
+}
+
+.flag, #sprite {
+  position: absolute;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  padding: 3px;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: lightblue;
+  background-color: #202020;
+  z-index: 99;
+  font-size: 1.1em;
+  font-weight: bold;
+}
